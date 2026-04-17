@@ -1,3 +1,3 @@
 def test_fail(page: Page):
-    page.goto("https://www.naver.com/")
-    assert "google" in page.url
+    page.goto("https://www.daum.net")
+    assert "daum" in page.url
